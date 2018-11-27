@@ -1,0 +1,7 @@
+# a comment - Esto es ignorado
+*.a		# no rastrea los archivos con extensión .a
+!lib.a		# Pero si rastrea lib.a, aunque estemos ignorando el restro de los archivos .a 
+/TODO		# Sólo ignora el archivo raíz TODO, no subdirectorio /TODO
+build/		# Ignora todos los archivos en el directorio build/
+doc/*.txt	# Ignora doc/notes.txt, pero no doc/server/arch.txt
+
